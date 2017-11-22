@@ -1,1 +1,158 @@
 <!-- Agrega aquí la estructura HTML de tu sitio web -->
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="css/main.css">
+     <!--Links para la obtención de fuentes e iconos-->
+     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:300,400,600,700,800,900" rel="stylesheet">
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <title>Freelancer</title>
+   </head>
+   <body>
+     <header>                  <!-- Cabecera-->
+       <nav>                   <!--Menú de navegación-->
+         <section class="all_nav">      <!--Contiene a todos los elementos de nav-->
+           <section class="tittle_sec">
+             <div class="text_uppercase">Start bootstrap</div>
+           </section>
+           <section class="contact_sec">
+             <div class="text_uppercase">Portfolio</div>
+             <div class="text_uppercase">About</div>
+             <div class="text_uppercase"> Contact</div>
+           </section>
+         </section>
+       </nav>
+     </header>
+    <main>                      <!--Contenido-->
+      <section class="first_sec">
+        <img src="assets/images/profile.png" alt="Profile" title="Profile">
+        <h1 class="text_uppercase">Start bootstrap</h1>
+        <i class="fa fa-star num1" aria-hidden="true"></i>
+        <span>Web Devoloper - Graphic Artist - User Experience Designer</span>
+      </section>
+      <section class="second_sec">
+        <h2 class="text_uppercase">Portfolio</h2>
+        <i class="fa fa-star num2" aria-hidden="true"></i>
+        <!-- Imágenes representativas del tema-->
+        <div class="portfolio_img">
+          <div>
+            <img src="assets/images/portfolio/cabin.png" alt="Cabin">
+          </div>
+          <div>
+            <img src="assets/images/portfolio/cake.png" alt="Cake">
+          </div>
+          <div>
+            <img src="assets/images/portfolio/circus.png" alt="Circus">
+          </div>
+          <div>
+            <img src="assets/images/portfolio/game.png" alt="Game">
+          </div>
+          <div>
+            <img src="assets/images/portfolio/safe.png" alt="Safe">
+          </div>
+          <div>
+            <img src="assets/images/portfolio/submarine.png" alt="Submarine">
+          </div>
+        </div>              <!--Fin de portfolio_img-->
+      </section>                <!--Fin segunda sección-->
+      <section class="third_sec">
+        <h2 class="text_uppercase">About</h2>
+        <i class="fa fa-star num1" aria-hidden="true"></i>
+        <div class="about_txt">
+          <div class="column1">
+            <p>Freelancer is a free bootstrap theme created by Start Bootstrap.
+              The download includes the complete source files including HTML, CSS,
+              and JavaScript as well as optional LESS stylesheets for easy
+              customization.</p>
+            </div>
+            <div class="column2">
+              <p>Whether you´re a student looking to showcase your work, a
+                professional looking to attract clients, or graphic artist
+                 looking to share your projects, this template
+                is the perfect starting point!.</p>
+              </div>
+        </div>
+
+        <div class="box_btn">    <!--Botón de Download-->
+          <a href="#" class="btn">
+            <i class="fa fa-download" aria-hidden="true"></i>
+            Download Theme
+          </a>
+        </div>
+      </section>              <!-- fin de la tercera sección-->
+      <section class="fourth_sec">
+        <h2 class="text_uppercase">Contact me</h2>
+        <i class="fa fa-star num2" aria-hidden="true"></i>
+
+        <!--Inicio formulario-->
+        <section class="Form">
+          <form class="form_contact" action="index.html" method="post">
+            <div class="container_form">
+              <label for="name">Name</label>
+              <input type="text" placeholder="Name">
+            </div>
+            <div class="container_form">
+              <label for="email">Email Address</label>
+              <input type="email" placeholder="Email Address">
+            </div>
+            <div class="container_form">
+              <label for="phone">Phone Number</label>
+              <input type="tel" placeholder="Phone Number">
+            </div>
+            <div class="container_form">
+              <label for="message">Message</label>
+              <textarea name="message" rows="5" placeholder="Message"></textarea>
+            </div>              <!--Botón de envío de información-->
+            <input class="btn1"type="button" value="Send">
+          </form>
+        </section>              <!-- Fin del contenedor de Form-->
+      </section>                 <!--Fin de la cuarta sección-->
+    </main>
+    <footer>                    <!-- Pie de la pág.-->
+      <section class="up">
+        <!-- Ubicación, dirección-->
+        <div class="location">
+          <h3 class="text_uppercase">Location</h3>
+          <p>3481 Melrose Place <br>
+            Beverly Hills, CA 90210
+          </p>
+        </div>
+        <!-- Información de redes sociales-->
+        <div class="around">
+          <h3 class="text_uppercase">Around the web</h3>
+          <div class="media">
+            <div class="facebook">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+            <div class="google">
+              <i class="fa fa-google-plus" aria-hidden="true"></i>
+            </div>
+            <div class="twitter">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+            <div class="linkedin">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+            <div class="dribbble">
+              <i class="fa fa-dribbble" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <!--Información relacionada-->
+        <div class="about_freelancer">
+          <h3 class="text_uppercase">About freelancer</h3>
+          <p>Freelance is a free to use, open source Bootstrap theme created by
+             <a href="http://startbootstrap.com">Start Bootstrap</a>
+             .</p>
+        </div>
+      </section>
+      <!--Copyright-->
+      <section class="down">
+        <div>
+          <p>Copyright © Your Website 2017</p>
+        </div>
+      </section>
+    </footer>
+   </body>
+ </html>
