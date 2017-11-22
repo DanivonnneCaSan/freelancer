@@ -1,13 +1,13 @@
-#Descripción del proyecto
+# Descripción del proyecto
 
-##Contenido repositorio
+## Contenido repositorio
 1. El archivo index.html contiene la estructura de la página así como sus textos.
 2. Carpeta CSS incluye el archivo main.css con todos los estilos, tipografías, colores y demás elementos que permiten brindarle una estructura visual al archivo html.
 3. Dentro de la carpeta ASSETS se encuentra la carpeta IMAGES donde se localizan todas las imágenes utilizadas en el código de la página.
 
-###Página startbootstrap
+### Página startbootstrap
 
-El html se divide en tres secciones principales la cabecera que contiene el menú de navegación de la página, en la esquina superior izquiera el nombre de la página y en la esquina lateral izquiera se tienen tres divisiones con las opciones de "PORTFOLIO", "ABOUT" y "CONTACT".
+El html se divide en **tres secciones principales** la cabecera que contiene el menú de navegación de la página, en la esquina superior izquiera el nombre de la página y en la esquina lateral izquiera se tienen tres divisiones con las opciones de "PORTFOLIO", "ABOUT" y "CONTACT".
 
 La segunda sección principal, es el main, que incluye cuatro secciones con la información más relevante de la página.
 
